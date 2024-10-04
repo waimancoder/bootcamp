@@ -1,0 +1,27 @@
+# Virtual environment
+env/
+venv/
+*.venv
+.env
+
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django cache files
+*.db
+*.sqlite3
+*.sql
+
+# Django migrations
+**/migrations/*.py
+
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
